@@ -1,7 +1,7 @@
 // ProductEdit.jsx
 import { useEffect, useState } from "react";
 import api from "./lib/api";
-import PhotosUploader from "./PhotosUploader";
+import PhotosUploader from "./photosuploader";
 
 export default function ProductEdit({ productId }) {
   const [product, setProduct] = useState(null);
